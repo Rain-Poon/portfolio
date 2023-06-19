@@ -1,6 +1,7 @@
 {
   "name": "react-gh-pages",
   "version": "0.1.0",
+  "homepage": "/react-gh-pages/docs",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
