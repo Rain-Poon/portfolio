@@ -1,0 +1,25 @@
+.type {
+  background: url(https://images.unsplash.com/photo-1457364887197-9150188c107b?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.heading {
+  margin: 100px;
+}
+
+.heading h1 {
+  color: white;
+  font-size: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+.heading {
+    margin-top: 100px;
+}
+  .heading h1 {
+    font-size: 50px;
+  }
+}

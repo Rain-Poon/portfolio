@@ -1,0 +1,17 @@
+.black-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+    margin: 10px 10px 10px 0px;
+    box-shadow: 3px 3px 0px 0px #bd5f24;
+}
+
+.black-button:hover {
+    background-color: #333;
+}

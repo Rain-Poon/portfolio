@@ -2,12 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Test from './Test'
+import ResponsiveAppBar from './navbar'
+import Skills from './skills.tsx';
+import TabInterface from './Tabs';
+import Home from './home';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from "react-router-dom"
+import About from './AboutMe';
+import Switcher from './Switcher';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Switcher />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
