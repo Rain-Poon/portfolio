@@ -1,7 +1,7 @@
 {
-  "name": "react-gh-pages",
+  "name": "my-app",
   "version": "0.1.0",
-  "homepage": "/react-gh-pages/docs",
+  "homepage": "http://rain-poon.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
