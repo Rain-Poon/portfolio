@@ -1,0 +1,19 @@
+.hover-span {
+    transition: transform 0.3s ease-in-out;
+    padding: 5px;
+    margin: 10px;
+}
+.hover-span:hover {
+    color: blue; /* Change the color or add any other styles you want on hover */
+    cursor: pointer; /* Change the cursor on hover if you want it to look clickable */
+    transform: translateX(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-color: black;
+    border-radius: 8px;
+    border-width: 2px;
+  }
+
+/* .hover-span > span {
+    font-size: clamp(1rem, 2vw, 2rem);
+} */
+  
