@@ -1,3 +1,16 @@
+.innerDiv {
+    flex: 1;
+    background-color: #F2F5F8;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 600px) {
+    .innerDiv {
+      flex-direction: column;
+    }
+  }
+
 .hover-span {
     transition: transform 0.3s ease-in-out;
     padding: 5px;

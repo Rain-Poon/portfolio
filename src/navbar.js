@@ -54,8 +54,8 @@ function ResponsiveAppBar() {
   return (
     <>
       <Routes>
-      <Route path="/about me" element={<About />} />
-      <Route path="/contact me" element={<Contacts />} />
+        <Route path="/about me" element={<About />} />
+        <Route path="/contact me" element={<Contacts />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/3d modeling" element={<App />} />
       </Routes>
@@ -66,7 +66,10 @@ function ResponsiveAppBar() {
         >
           <Container maxWidth="false">
             <Toolbar disableGutters>
-              <img src={logo} style={{ maxHeight: 40, marginRight: 20 }} />
+              <Link to={`/`}>
+                <img src={logo} style={{ maxHeight: 40, marginRight: 20 }} />
+              </Link>
+
               <Typography
                 variant="h6"
                 noWrap
@@ -85,6 +88,7 @@ function ResponsiveAppBar() {
                 Rain's Portfolio
               </Typography>
 
+              {/* App bar for mobile phone */}
               <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
                 <IconButton
                   size="large"
@@ -116,12 +120,15 @@ function ResponsiveAppBar() {
                 >
                   {pages.map((page) => (
                     <MenuItem key={page} onClick={handleCloseNavMenu}>
-                      <Typography textAlign="center">{page}</Typography>
+                      <Link to={`/${page.toLowerCase()}`}>
+                        <Typography textAlign="center">{page}</Typography>
+                      </Link>
                     </MenuItem>
                   ))}
                 </Menu>
               </Box>
-              
+
+              {/* App bar with normal size */}
               <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
                 {pages.map((page) => (
                   <Link to={`/${page.toLowerCase()}`}>

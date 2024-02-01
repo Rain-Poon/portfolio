@@ -10,7 +10,7 @@ function Contacts() {
     <div style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
       <ResponsiveAppBar />
       <div style={{ flex: 1, backgroundColor: '#A3A8AC', display: 'flex', padding: '20px'}}>
-        <div style={{ flex: 1, backgroundColor: '#F2F5F8', display: 'flex', flexDirection: 'row' }}>
+        <div className='innerDiv'>
           <div style={{ flex: 1, display: 'flex', flexDirection: 'column', padding: "15px" }}>
             <h1>Rain Poon</h1>
             <Divider></Divider>

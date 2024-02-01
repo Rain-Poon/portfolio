@@ -83,8 +83,6 @@ export default function Skills() {
   }
 
   return (
-    <>
-      
       <div className="skill">
       <ResponsiveAppBar />
         <div className="window">
@@ -120,6 +118,5 @@ export default function Skills() {
           </main>
         </div>
       </div>
-    </>
   );
 }
