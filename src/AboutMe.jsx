@@ -15,7 +15,7 @@ export default function About() {
                     <h1>Hello,</h1>
                     <h1>I am Rain</h1>
                     <p>Penultimate Year Student</p>
-                    <a href="https://connecthkuhk-my.sharepoint.com/:b:/g/personal/u3580090_connect_hku_hk/EVAkRhUp0DhHjezWwT1n1OQBCL-4LwKB4VA9F5HIt-1CrA?e=kCHjYK">
+                    <a href="https://connecthkuhk-my.sharepoint.com/:b:/g/personal/u3580090_connect_hku_hk/EXIS7hhnGQFIndkMn2hYWxsB7C4H89HGPjysTjVn3BUklg">
                         <BlackButton
                             label="Download CV"
                             onClick={() => alert('Redirect to OneDrive!')                          }
